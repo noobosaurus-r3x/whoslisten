@@ -48,7 +48,6 @@ pip install rich
 **Privileges:** 
 - **With sudo:** Complete process visibility and accurate threat detection
 - **Without sudo:** Limited to processes you own, may miss threats
-- **Alternative:** Use capabilities: `sudo setcap cap_sys_ptrace+ep whoslisten.py`
 
 ⚠️ **Security note:** Only run as root if you trust the script and need complete system visibility.
 
